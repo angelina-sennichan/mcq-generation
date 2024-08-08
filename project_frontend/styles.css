@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.signin{
+    border-radius: 10px ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width:400px;
+    padding:50px;
+}
+
+.sign-in-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+
+}
+
+.user-input-group {
+    margin-bottom: 15px;
+}
+
+.user-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.user-input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.test-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.test {
+    text-align: center;
+}
+
+.test div {
+    margin-bottom: 10px;
+}
+
+.mcq-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.mcq-question {
+    margin-bottom: 15px;
+}
+
+.each-question {
+    margin-bottom: 10px;
+}
+
+.options input {
+    margin-right: 10px;
+} 
+
+.hidden {
+    display: none;
+}

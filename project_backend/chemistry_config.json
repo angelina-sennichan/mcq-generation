@@ -1,0 +1,8 @@
+{
+  "threshold": 0.7,
+  "subject_id": 101,
+  "marks": 10,
+  "no_of_questions": 10,
+  "cut_off": 4,
+  "test_duration": "00:10:00"
+}
